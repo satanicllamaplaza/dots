@@ -1,0 +1,56 @@
+This is as best of a walk through as I can make for the Witch_House set up
+Which House was designed on Pop OS. If you are not on gnome I may not be able to help you.
+
+You will need these applications.
+  Gnome extension manager (I believe this is available in the pop shop)
+    https://extensions.gnome.org/
+  Gnome Tweaks (I believe this is available in the pop shop)
+    https://itsfoss.com/gnome-tweak-tool/
+    https://wiki.gnome.org/action/show/Apps/Tweaks?action=show&%3Bredirect=Apps%2FGnomeTweakTool
+  Pywal
+    https://github.com/dylanaraps/pywal
+  Conky
+    https://github.com/brndnmtthws/conky
+    https://itsfoss.com/conky-gui-ubuntu-1304/
+      the conky config file is in the repo along with the font and backgrounds.
+
+The gnome extensions you will need are:
+  ArcMenu
+  BackSlide
+  Blur my Shell
+  Color Picker
+  Dash to Panel
+  Just Perfection
+  Rounded Corners
+  User Themes
+  Vitals
+  --On Pop OS you may need to disable "Cosmic Dock" in gnome extensions
+
+You will need to install Themes, Icons and a cursor.
+Here is how:
+  https://itsfoss.com/install-switch-themes-gnome-shell/
+Here are the Themes, Icons and cursor:
+  Sunrise GTK Dark Theme:
+    https://www.pling.com/p/1258305
+  Buuf For Many Desktops
+    https://www.gnome-look.org/p/1012233
+  Bibata Modern Amber
+    https://www.gnome-look.org/p/1914819
+
+I use alacritty as my terminal. I love it its great to learn on and there are tons of folks who cover alacritty config files.
+My terminal theme is made with Pywal. The pywal command I used is:
+
+wal --theme base16-gruvbox-hard -b "120e0d"
+
+This sets the terminal theme without changing the background photo. It sets the terminal back ground color to #120e0d. The rest of the color theme is a gruvbox theme.
+
+vscodium or vscode has a pywal extension called Wal Theme. This will match your vscodium or vscode theme to your terminal.
+
+I turn Window Titles off system wide and use gestures to full screen, minimize or close windows.
+this is not something i feel particularly comfortable sharing as i don't understand it enough to prevent people from causing problems for themselves.
+
+
+I will work on this more overtime and continue to provide more details on settings and options. let me know if you have questions and i will do my best to answer.
+Have fun!!
+
+  
