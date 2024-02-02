@@ -13,6 +13,8 @@ You will need these applications.
     https://github.com/brndnmtthws/conky
     https://itsfoss.com/conky-gui-ubuntu-1304/
       the conky config file is in the repo along with the font and backgrounds.
+  If you use Firefox or Librewolf I recomend using Firefox Color to theme the browser
+    https://color.firefox.com/
 
 The gnome extensions you will need are:
   ArcMenu
