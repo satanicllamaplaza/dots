@@ -1,0 +1,17 @@
+-- general
+vim.g.mapleader = " "
+
+-- neo-tree
+vim.keymap.set("n", "<C-n>", ":Neotree filesystem reveal left<CR>", {})
+
+-- none-ls
+vim.keymap.set("n", "<Leader>gf", vim.lsp.buf.format, {})
+
+-- lsp config
+vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
+vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
+vim.keymap.set({ "n", "v" }, "<Leader>ca", vim.lsp.buf.code_action, {})
+
+-- telescope
+vim.api.nvim_set_keymap("n", "<leader>ff", ":Telescope find_files<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<leader>fg", ":Telescope live_grep<CR>", { noremap = true, silent = true })
