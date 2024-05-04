@@ -42,6 +42,14 @@ return {
 			luasnip.config.setup({})
 
 			cmp.setup({
+
+				-- WARN: themes borders for suggestions
+				window = {
+					completion = cmp.config.window.bordered(),
+					documentation = cmp.config.window.bordered(),
+				},
+				-- WARN: end
+
 				snippet = {
 					expand = function(args)
 						luasnip.lsp_expand(args.body)
