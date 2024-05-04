@@ -122,6 +122,18 @@ return {
 				end,
 			})
 
+			-- NOTE: Add borders to the hover popup window
+			require("lspconfig").util.default_config =
+				vim.tbl_extend("force", require("lspconfig").util.default_config, {
+					handlers = {
+						["textDocument/hover"] = vim.lsp.with(vim.lsp.handlers.hover, {
+							border = "single", -- You can change 'single' to any other border style
+						}),
+					},
+				})
+			-- END OF BORDER ADDITION
+			--
+			--
 			-- LSP servers and clients are able to communicate to each other what features they support.
 			--  By default, Neovim doesn't support everything that is in the LSP specification.
 			--  When you add nvim-cmp, luasnip, etc. Neovim now has *more* capabilities.
