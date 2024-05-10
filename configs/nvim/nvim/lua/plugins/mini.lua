@@ -2,8 +2,12 @@ return {
 	{ -- Collection of various small independent plugins/modules
 		"echasnovski/mini.nvim",
 		config = function()
+			-- ANIMATE VIM MOTIONS FOR FUNSIES
+			require("mini.animate").setup()
+
 			-- AUTO CREATE PAIRS WHEN CODING
 			require("mini.pairs").setup()
+
 			-- Better Around/Inside textobjects
 			--
 			-- Examples:
