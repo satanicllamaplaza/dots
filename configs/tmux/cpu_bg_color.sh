@@ -13,8 +13,8 @@ cpu_medium_bg_color=""
 cpu_high_bg_color=""
 
 cpu_low_default_bg_color="#[bg=#98971a]"
-cpu_medium_default_bg_color="#[bg=#d65d0e]"
-cpu_high_default_bg_color="#[bg=#b52e28]"
+cpu_medium_default_bg_color="#[bg=#be6411]"
+cpu_high_default_bg_color="#[bg=#953022]"
 
 get_bg_color_settings() {
   cpu_low_bg_color=$(get_tmux_option "@cpu_low_bg_color" "$cpu_low_default_bg_color")

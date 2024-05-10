@@ -13,8 +13,8 @@ cpu_medium_fg_color=""
 cpu_high_fg_color=""
 
 cpu_low_default_fg_color="#[fg=#98971a]"
-cpu_medium_default_fg_color="#[fg=#d65d0e]"
-cpu_high_default_fg_color="#[fg=#b52e28]"
+cpu_medium_default_fg_color="#[fg=#be6411]"
+cpu_high_default_fg_color="#[fg=#953022]"
 
 get_fg_color_settings() {
   cpu_low_fg_color=$(get_tmux_option "@cpu_low_fg_color" "$cpu_low_default_fg_color")

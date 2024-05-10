@@ -9,13 +9,13 @@ set-option -g status "on"
 set-option -g status-style bg='#3c2e26',fg='#c4b686' # bg=bg1, fg=fg1
 
 # default window title colors
-set-window-option -g window-status-style bg='#c5962a',fg='#3c2e26' # bg=yellow, fg=bg1
+set-window-option -g window-status-style bg='#c09129',fg='#3c2e26' # bg=yellow, fg=bg1
 
 # default window with an activity alert
 set-window-option -g window-status-activity-style bg='#3c2e26',fg=colour248 # bg=bg1, fg=fg3
 
 # active window title colors
-set-window-option -g window-status-current-style bg='#b52e28',fg='#594535' # fg=bg1
+set-window-option -g window-status-current-style bg='#953022',fg='#594535' # fg=bg1
 
 # pane border
 set-option -g pane-active-border-style fg='#c4b686' #fg2
@@ -35,7 +35,7 @@ set-option -g display-panes-colour colour237 #bg1
 set-window-option -g clock-mode-colour colour109 #blue
 
 # bell
-set-window-option -g window-status-bell-style bg='#b52e28',fg='#3c2e26' # bg=red, fg=bg
+set-window-option -g window-status-bell-style bg='#953022',fg='#3c2e26' # bg=red, fg=bg
 
 ## Theme settings mixed with colors (unfortunately, but there is no cleaner way)
 set-option -g status-justify "left"
@@ -52,7 +52,7 @@ set-option -g status-right " #{?client_prefix,🌱PREFIX🌱,}#[bg=#3c2e26,fg=#5
 
 #set-option -g status-right " #{?client_prefix,🌱PREFIX🌱,}#[bg=#3c2e26,fg=#594535 nobold, nounderscore, noitalics]#[bg=#594535,fg=#cec090] %m-%d-%y  %I:%M #[bg=#594535,fg=#98971a,nobold,noitalics,nounderscore]#[bg=#98971a,fg=#202020] #[bold]#{battery_remain} "
 
-set-window-option -g window-status-current-format "#[bg=#c5962a,fg=#3c2e26,nobold,noitalics,nounderscore]#[bg=#c5962a,fg=#3c2e26] #I #[bg=#c5962a,fg=#3c2e26,bold] #W#{?window_zoomed_flag,*Z,} #[bg=#3c2e26,fg=#c5962a,nobold,noitalics,nounderscore]"
+set-window-option -g window-status-current-format "#[bg=#c09129,fg=#3c2e26,nobold,noitalics,nounderscore]#[bg=#c09129,fg=#3c2e26] #I #[bg=#c09129,fg=#3c2e26,bold] #W#{?window_zoomed_flag,*Z,} #[bg=#3c2e26,fg=#c09129,nobold,noitalics,nounderscore]"
 set-window-option -g window-status-format "#[bg=#594535,fg=#3c2e26,noitalics]#[bg=#594535,fg=#c4b686] #I #[bg=#594535,fg=#c4b686] #W #[bg=#3c2e26,fg=#594535,noitalics]"
 
 # vim: set ft=tmux tw=0 nowrap:
