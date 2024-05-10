@@ -1,0 +1,32 @@
+## This is my modified kitty theme
+## it goes in .config/kitty/current-theme.conf
+
+
+selection_foreground    #cec090     ## FOREGROUD
+selection_background    #be6411     ## ORAANGE
+
+background              #120e0d     ## DARK BG
+foreground              #cec090     ## FOREGROUND
+
+color0                  #3c3836
+color1                  #953022     ## ERROR RED
+color2                  #98971a     ## SOFT GREEN
+color3                  #c09129     ## SOFT YELLOW
+color4                  #486c64     ## BLUE GRAY
+color5                  #935463     ## MAGENTA
+color6                  #607c50     ## FOREST GREEN
+color7                  #3c2e26     ## MEDIUM GRAY
+color8                  #594535     ## COMMENT
+color9                  #b44934     ## RED
+color10                 #b8bb26     ## OTHER GREEN NON SPECIFIED
+color11                 #c8a144     ## BRIGHT YELLOW
+color12                 #70807d     ## LIGHT BLUE
+color13                 #a37173     ## PINK
+color14                 #7a955c     ## CLEAN GREEN
+color15                 #cec090     ## FOREGROUD
+
+cursor                  #c4b686     ## MILK
+cursor_text_color       #120e0d     ## DARK BG
+
+url_color               #486c64     ## BLUE GRAY
+
